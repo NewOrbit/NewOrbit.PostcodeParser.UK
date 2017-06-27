@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostcodeParser.UK", "src\PostcodeParser.UK\PostcodeParser.UK.csproj", "{B69C23E8-31D5-426B-A472-6E5A7E68F748}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EFA8AC46-312C-40CF-AE6F-966DDA0B9CC7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{55607282-7EC4-48A7-A685-469E5452B893}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "test\Tests\Tests.csproj", "{E7E585A8-CC24-436F-B497-7055B485AACF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B69C23E8-31D5-426B-A472-6E5A7E68F748}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B69C23E8-31D5-426B-A472-6E5A7E68F748}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B69C23E8-31D5-426B-A472-6E5A7E68F748}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B69C23E8-31D5-426B-A472-6E5A7E68F748}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7E585A8-CC24-436F-B497-7055B485AACF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7E585A8-CC24-436F-B497-7055B485AACF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7E585A8-CC24-436F-B497-7055B485AACF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7E585A8-CC24-436F-B497-7055B485AACF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B69C23E8-31D5-426B-A472-6E5A7E68F748} = {EFA8AC46-312C-40CF-AE6F-966DDA0B9CC7}
+		{E7E585A8-CC24-436F-B497-7055B485AACF} = {55607282-7EC4-48A7-A685-469E5452B893}
+	EndGlobalSection
+EndGlobal

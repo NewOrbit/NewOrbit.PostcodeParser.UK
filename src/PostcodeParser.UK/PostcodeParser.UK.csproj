@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard13;net40;net451</TargetFrameworks>
+    <Version>0.1.0</Version>
+    <PackageProjectUrl>https://github.com/NewOrbit/NewOrbit.PostcodeParser.UK</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/NewOrbit/NewOrbit.PostcodeParser.UK</RepositoryUrl>
+    <Company>NewOrbit Ltd</Company>
+    <Authors>Frans Lytzen</Authors>
+  </PropertyGroup>
+
+</Project>
