@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFrameworks>netstandard13;net40;net451</TargetFrameworks>
-    <Version>0.1.0</Version>
+    <VersionPrefix>0.1.0</VersionPrefix>
     <PackageProjectUrl>https://github.com/NewOrbit/NewOrbit.PostcodeParser.UK</PackageProjectUrl>
     <RepositoryUrl>https://github.com/NewOrbit/NewOrbit.PostcodeParser.UK</RepositoryUrl>
     <Company>NewOrbit Ltd</Company>

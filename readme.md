@@ -7,16 +7,21 @@ This repository just adds some testing around it.
 
 UK postcodes can be broken into parts like thus:
 
-|Postcode|Outward code |Inward code|
-|--------|-------------|-----------|
-|        |Area|District|Sector|Unit|
-|--------|:--:|:------:|:----:|:--:|
-|M1 1AA  |M   |1       |1     |AA  |
-|M60 1NW |M   |60      |1     |NW  |
-|CR2 6XH |CR  |2       |6     |XH  |
-|DN55 1PT|DN  |55      |1     |PT  |
-|W1P 1BB |W   |1P      |1     |BB  |
-|EC1A 1BB|EC  |1A      |1     |BB  |
+<table>
+    <thead>
+        <tr><th>Postcode</th><th colspan=2>Outward code</th><th colspan=2>Inward code</th>
+        </tr>
+        <tr><th>&nbsp;</th><th>Area</th><th>District</th><th>Sector</th><th>Unit</th> </tr>
+    </thead>
+    <tbody>
+        <tr><th>M1 1AA  </th><td>M </td><td> 1</td><td>1</td><td>AA</td></tr>
+        <tr><th>M60 1NW </th><td>M </td><td>60</td><td>1</td><td>NW</td></tr>
+        <tr><th>CR2 6XH </th><td>CR</td><td> 2</td><td>6</td><td>XH</td></tr>
+        <tr><th>DN55 1PT</th><td>DN</td><td>55</td><td>1</td><td>PT</td></tr>
+        <tr><th>W1P 1BB </th><td>W </td><td>1P</td><td>1</td><td>BB</td></tr>
+        <tr><th>EC1A 1BB</th><td>EC</td><td>1A</td><td>1</td><td>BB</td></tr>
+    </tbody>
+</table>
 
 # Usage
 `Postcode.Destructure("EC1A 1BB")` will return the breakdown as per the table.
