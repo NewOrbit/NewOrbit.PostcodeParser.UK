@@ -1,5 +1,5 @@
 # UK Postcode parsing
-This is a simple package to break a UK postcode into it's constituent parts.
+This is a simple package to break a UK postcode into its constituent parts.
 It's really just a simple wrapper around this regex:
 `(^[A-Z]{1,2})([0-9]{1,2}[A-Z]{0,1})\\s?([0-9])([A-Z]{2}$) `
 
