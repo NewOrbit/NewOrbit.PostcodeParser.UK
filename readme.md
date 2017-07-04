@@ -23,6 +23,9 @@ UK postcodes can be broken into parts like thus:
     </tbody>
 </table>
 
+# Installation
+`Install-Package PostcodeParser.UK`
+
 # Usage
 `Postcode.Destructure("EC1A 1BB")` will return the breakdown as per the table.
 It will thrown an `ArgumentException` if the postcode is not in a valid format.
